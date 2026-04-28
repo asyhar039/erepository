@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-Portfolio Mahasiswa Pendidikan
 
 Website portofolio elektronik untuk mengembangkan profesionalisme guru berdasarkan program PPL Terbimbing, dibuat dengan PHP untuk struktur yang lebih dinamis.
@@ -44,3 +45,6 @@ Website portofolio elektronik untuk mengembangkan profesionalisme guru berdasark
 - **Font Awesome**: Ikon untuk visual enhancement
 
 Dibuat dengan ❤️ untuk pengembangan profesionalisme guru.
+=======
+# erepository
+>>>>>>> e7959acdda189152a9e8e6b7c998725b4b961321
