@@ -32,7 +32,8 @@ document.querySelectorAll('section').forEach(function (section) {
 }); // Navbar background change on scroll
 
 window.addEventListener('scroll', function () {
-  var navbar = document.querySelector('.navbar');
+  var navbar = document.querySelector('.navbar') || document.querySelector('nav');
+  if (!navbar) return;
 
   if (window.scrollY > 50) {
     navbar.classList.add('navbar-scrolled');

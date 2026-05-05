@@ -26,30 +26,50 @@
     </nav>
 
     <section class="container my-5">
-        <h2>Artefak Produk Rencana dan Perangkat Pembelajaran</h2>
-        <p>Berikut adalah artefak-artefak yang saya buat selama program PPL Terbimbing, termasuk RPP, media pembelajaran, contoh hasil kerja siswa, dan lainnya.</p>
+        <h2>Artefak Modul Ajar Kurikulum Merdeka</h2>
+        <p>Berikut adalah artefak yang saya kembangkan sebagai modul ajar berbasis Kurikulum Merdeka dan Deep Learning, meliputi strategi pembelajaran, media, produk siswa, dan refleksi implementasi.</p>
 
         <div class="accordion" id="artefakAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#rpp">
-                        Rencana Pelaksanaan Pembelajaran (RPP)
+                        Modul Ajar Kurikulum Merdeka (Deep Learning)
                     </button>
                 </h2>
                 <div id="rpp" class="accordion-collapse collapse show" data-bs-parent="#artefakAccordion">
                     <div class="accordion-body">
-                        <p><strong>Konteks:</strong> [Deskripsi konteks]</p>
-                        <p><strong>Tujuan:</strong> [Tujuan pembelajaran]</p>
-                        <p><strong>Kelebihan:</strong> [Kelebihan RPP]</p>
-                        <p><strong>Kekurangan:</strong> [Kekurangan RPP]</p>
-                        <p><strong>Analisis Teori:</strong> Berdasarkan teori [nama teori] dari mata kuliah [nama MK], yang terintegrasi dengan PPL Terbimbing...</p>
-                        <a href="#" class="btn btn-primary">Unduh RPP</a>
+                        <ul class="modul-details list-unstyled">
+                            <li><strong>Konteks:</strong> Modul ini disusun dalam kerangka Kurikulum Merdeka dan Deep Learning, dengan fokus pengalaman belajar autentik serta kegiatan refleksi dan kolaborasi.</li>
+                            <li><strong>Tujuan:</strong> Mendukung pembelajaran bermakna melalui proyek, diskusi, dan asesmen autentik yang sejalan dengan profil pelajar Pancasila.</li>
+                            <li><strong>Kelebihan:</strong> Memperkuat kemandirian siswa, relevansi dunia nyata, dan pengembangan karakter serta kompetensi abad 21.</li>
+                            <li><strong>Kekurangan:</strong> Memerlukan dukungan literasi digital dan pendampingan guru agar semua siswa dapat berpartisipasi secara maksimal.</li>
+                            <li><strong>Analisis Teori:</strong> Berlandaskan prinsip Deep Learning dari Kurikulum Merdeka, modul ini menekankan pembelajaran aktif, pemecahan masalah, dan refleksi hasil belajar.</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#previewModulAjarModal">Preview Modul Ajar</button>
                     </div>
                 </div>
             </div>
             <!-- Tambahkan item accordion lainnya untuk media, contoh hasil kerja siswa, dll. -->
         </div>
     </section>
+
+    <div class="modal fade" id="previewModulAjarModal" tabindex="-1" aria-labelledby="previewModulAjarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="previewModulAjarModalLabel">Preview Modul Ajar</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0 iframe-preview">
+                    <iframe src="../assets/docs/MODUL_AJAR_INFORMATIKA_1.pdf" frameborder="0" width="100%" height="100%"></iframe>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="../assets/docs/MODUL_AJAR_INFORMATIKA_1.pdf" class="btn btn-primary" download="MODUL AJAR INFORMATIKA (1).pdf">Download Modul Ajar</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white py-3">
         <div class="container text-center">

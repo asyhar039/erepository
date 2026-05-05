@@ -1,4 +1,4 @@
-// Custom JavaScript for E-Portfolio
+// Custom JavaScript for Portofolio Mahasiswa Pendidikan Profesi Guru
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -34,7 +34,8 @@ document.querySelectorAll('section').forEach(section => {
 
 // Navbar background change on scroll
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.querySelector('.navbar') || document.querySelector('nav');
+    if (!navbar) return;
     if (window.scrollY > 50) {
         navbar.classList.add('navbar-scrolled');
     } else {

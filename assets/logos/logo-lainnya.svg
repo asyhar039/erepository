@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-labelledby="lainnyaTitle">
+  <title id="lainnyaTitle">Logo Lainnya</title>
+  <rect width="300" height="120" rx="24" fill="#111827"/>
+  <path d="M60 40 H120 L140 80 H80 Z" fill="#38bdf8"/>
+  <path d="M170 40 H230 L210 80 H150 Z" fill="#f97316"/>
+  <text x="140" y="95" fill="#fff" font-family="Poppins, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Logo Lainnya</text>
+</svg>

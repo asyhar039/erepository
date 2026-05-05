@@ -1,50 +1,39 @@
-<<<<<<< HEAD
 # E-Portfolio Mahasiswa Pendidikan
 
-Website portofolio elektronik untuk mengembangkan profesionalisme guru berdasarkan program PPL Terbimbing, dibuat dengan PHP untuk struktur yang lebih dinamis.
+Website portofolio elektronik untuk mengembangkan profesionalisme guru berdasarkan program PPL Terbimbing. Struktur proyek sekarang tertata dalam folder agar lebih rapi dan mudah dipelihara.
 
-## Struktur Website
+## Struktur Folder
 
-- `index.php`: Halaman utama dengan profil mahasiswa
-- `artefak.php`: Halaman artefak produk pembelajaran
-- `penilaian.php`: Halaman instrumen penilaian dari guru pamong
-- `model-guru.php`: Halaman model guru yang dituju
-- `header.php`: Header reusable dengan navigasi
-- `footer.php`: Footer dengan informasi hak cipta
-- `styles.css`: Styling kustom dengan tema elegan dan responsif
-- `script.js`: JavaScript untuk animasi dan interaktivitas
+- `index.php`: Halaman utama portofolio
+- `pages/`: Halaman PHP tambahan
+  - `pages/artefak.php`
+  - `pages/penilaian.php`
+  - `pages/model-guru.php`
+  - `pages/misi.php`
+  - `pages/kompetensi.php`
+  - `pages/karakter.php`
+  - `pages/kontak.php`
+- `includes/`: Template reusable
+  - `includes/header.php`
+  - `includes/footer.php`
+- `static/`: Salinan halaman HTML statis
+  - `static/index.html`
+  - `static/artefak.html`
+  - `static/penilaian.html`
+  - `static/model-guru.html`
+- `styles.css`: Styling global
+- `script.js`: JavaScript interaksi
+- `dist/`: Aset dan build output tambahan
 
-## Fitur Utama
+## Cara Menjalankan
 
-- **Tema Elegan**: Desain modern dengan gradien, animasi, dan font Google (Poppins)
-- **Responsif**: Menggunakan Bootstrap 5 untuk kompatibilitas penuh di semua perangkat
-- **Animasi Smooth**: Fade-in pada scroll, hover effects, dan transisi halus
-- **Navigasi Dinamis**: Header dan footer yang reusable
-- **Interaktivitas**: Tooltip, smooth scrolling, dan efek visual
+1. Jalankan server PHP dari folder proyek.
+2. Akses `index.php` untuk halaman PHP dinamis.
+3. Akses `static/index.html` jika ingin melihat versi HTML statis.
 
-## Cara Menggunakan
+## Catatan
 
-1. **Server PHP**: Jalankan dengan server PHP (XAMPP, WAMP, atau `php -S localhost:8000`)
-2. **Buka Browser**: Akses `index.php` untuk melihat portofolio
-3. **Isi Konten**: Ganti placeholder dengan data pribadi
-4. **Upload Media**: Tambahkan foto profil dan file artefak
+- `includes/header.php` dan `includes/footer.php` sekarang digunakan oleh halaman PHP di `pages/`.
+- Halaman statis HTML yang dipindahkan ke `static/` menggunakan path asset relatif yang benar.
+- Gunakan `pages/` untuk halaman PHP baru jika ingin menjaga struktur tetap terorganisir.
 
-## Unsur Penilaian
-
-- **Profil Guru**: Kedalaman cerita pribadi dengan presentasi visual
-- **Kedalaman Analisis Produk**: Penjelasan artefak dengan card design
-- **Refleksi Diri**: Analisis kekuatan/kelemahan dalam format yang menarik
-- **Navigasi dan Tampilan**: Navigasi intuitif dan desain elegan
-
-## Teknologi
-
-- **PHP**: Untuk struktur dinamis dan include files
-- **HTML5/CSS3**: Struktur dan styling
-- **Bootstrap 5**: Framework responsif
-- **JavaScript**: Interaktivitas dan animasi
-- **Font Awesome**: Ikon untuk visual enhancement
-
-Dibuat dengan ❤️ untuk pengembangan profesionalisme guru.
-=======
-# erepository
->>>>>>> e7959acdda189152a9e8e6b7c998725b4b961321
